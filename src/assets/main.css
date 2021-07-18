@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer components {
+  .container {
+    @apply p-14 mx-auto;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
