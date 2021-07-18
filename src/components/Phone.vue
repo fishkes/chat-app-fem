@@ -23,24 +23,9 @@
         >Could you send over some pictures of your dog, please?</SpeechBubble
       >
       <div class="flex justify-end full-width space-x-3 mt-4 mb-[10px]">
-        <img
-          src="images/dog-image-1.jpg"
-          width="40"
-          height="40"
-          class="rounded-lg"
-        />
-        <img
-          src="images/dog-image-2.jpg"
-          width="40"
-          height="40"
-          class="rounded-lg"
-        />
-        <img
-          src="images/dog-image-3.jpg"
-          width="40"
-          height="40"
-          class="rounded-lg"
-        />
+        <img :src="dog1" width="40" height="40" class="rounded-lg" />
+        <img :src="dog2" width="40" height="40" class="rounded-lg" />
+        <img :src="dog3" width="40" height="40" class="rounded-lg" />
       </div>
       <SpeechBubble :me="false"
         >Here are a few pictures. She’s a happy girl!</SpeechBubble
@@ -86,4 +71,7 @@ import Header from "./Header.vue";
 import SpeechBubble from "./SpeechBubble.vue";
 import SelectionBox from "./SelectionBox.vue";
 import ChevronRight from "./ChevronRight.vue";
+import dog1 from "../assets/dog-image-1.jpg";
+import dog2 from "../assets/dog-image-2.jpg";
+import dog3 from "../assets/dog-image-3.jpg";
 </script>

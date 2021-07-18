@@ -14,7 +14,7 @@
     <div class="mb-2 flex items-center px-3 w-full">
       <ChevronLeft class="text-white mr-2" />
       <img
-        src="images/avatar.jpg"
+        :src="avatar"
         width="24"
         height="24"
         class="rounded-full border border-white mr-1"
@@ -35,4 +35,5 @@
 
 <script setup>
 import ChevronLeft from "./ChevronLeft.vue";
+import avatar from "../assets/avatar.jpg";
 </script>
